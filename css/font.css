@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'TempApa';
+    src: url('../assets/fonts/TempestApacheTitle-1g80.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TrenchThin";
+    src: url('../assets/fonts/TrenchThin-aZ1J.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family : "Azonix";
+    src:url('../assets/fonts/Azonix-1VB0.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family : "Mexon";
+    src:url('../assets/fonts/Mexon-ZVL2K.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family : "Tempest";
+    src:url('../assets/fonts/TempestApacheTitle-1g80.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family : "Gravity";
+    src:url('../assets/fonts/Gravity-V546.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family : "Space";
+    src:url('../assets/fonts/RadioSpace-zZ80.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
