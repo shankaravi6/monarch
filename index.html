@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monarch</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+
+    <script src="./js/data.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="wrapper">
+        <input type="radio" name="slider" id="clsbtn" />
+        <input type="radio" name="slider" id="menubtn" />
+
+        <div class="logo">
+          <div class="f-img">
+            <img src="./assets/images/pic.png" width="100%" alt="" />
+          </div>
+          <p>MONARCH</p>
+        </div>
+
+        <ul class="nav-links">
+          <label for="clsbtn" class="btn clsbtn"
+            ><i class="fa-regular fa-circle-xmark"></i
+          ></label>
+          <li><a class="nlink" href="#home">Home</a></li>
+          <li><a class="nlink" href="#news">News</a></li>
+          <li><a class="nlink" href="#safety">Guidance</a></li>
+          <li><a class="nlink" href="#teams">Team</a></li>
+          <li><a class="nlink" href="#titans">Titans</a></li>
+          <li><a class="nlink" href="#radiation">Tracker</a></li>
+
+          <li><button type="button" class="p-button">Alert</button></li>
+        </ul>
+
+        <label for="menubtn" class="btn menubtn"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div id="home" class="banner">
+      <img
+        src="./assets/images/banner.png"
+        alt="monarch_banner"
+        class="ban-img"
+      />
+      <div class="ban-text">
+        <h2 class="ban-title">MONARCH</h2>
+        <p class="ban-subtitle">The Legacy of Monsters</p>
+        <!-- <div class="ban-btn"><i class="fa-solid fa-chevron-down"></i></div> -->
+      </div>
+    </div>
+
+    <!-- News -->
+    <section class="section news" id="news">
+      <!-- <div class="slideshow">
+        <div class="container">
+          <div id="slide">
+            <div
+              class="item"
+                          >
+            <video src="./assets/images/clip2.mp4" width="100%" height="575px" loop muted autoplay></video>
+
+              <div class="content">
+                <div class="name">LUNDEV</div>
+                <div class="des">
+                  Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat
+                  tieu
+                </div>
+                <button>See more</button>
+              </div>
+            </div>
+            <div
+              class="item"
+              style="background-image: url(./assets/images/one.webp)"
+
+            >
+            <video src="./assets/images/clip.mp4" width="100%" height="575px" loop muted autoplay></video>
+              <div class="content">
+                <div class="name">LUNDEV</div>
+                <div class="des">
+                  Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat
+                  tieu
+                </div>
+                <button>See more</button>
+              </div>
+            </div>
+            <div
+              class="item"
+              style="background-image: url(./assets/images/three.png)"
+            >
+              <div class="content">
+                <div class="name">LUNDEV</div>
+                <div class="des">
+                  Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat
+                  tieu
+                </div>
+                <button>See more</button>
+              </div>
+            </div>
+            <div
+              class="item"
+              style="background-image: url(./assets/images/four.webp)"
+            >
+              <div class="content">
+                <div class="name">LUNDEV</div>
+                <div class="des">
+                  Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat
+                  tieu
+                </div>
+                <button>See more</button>
+              </div>
+            </div>
+            <div
+              class="item"
+              style="background-image: url(./assets/images/five.webp)"
+            >
+              <div class="content">
+                <div class="name">LUNDEV</div>
+                <div class="des">
+                  Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat
+                  tieu
+                </div>
+                <button>See more</button>
+              </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <button id="prev" class="p-back">
+              <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button id="next" class="p-back">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+      </div> -->
+      <div class="slideshow-container">
+        <div class="mySlides showcontent">
+          <div class="video-container">
+            <video
+              src="./assets/images/clip.mp4"
+              width="100%"
+              height="575px"
+              loop
+              muted
+              autoplay
+            ></video>
+          </div>
+          <div class="item">
+            <div class="content">
+              <div class="name">LUNDEV</div>
+              <div class="des">
+                Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu
+              </div>
+              <button>See more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides showcontent">
+          <img
+            src="./assets/images/one.webp"
+            width="100%"
+            height="575px"
+            alt=""
+          />
+          <div class="item">
+            <div class="content">
+              <div class="name">LUNDEV</div>
+              <div class="des">
+                Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu
+              </div>
+              <button>See more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides showcontent">
+          <div class="video-container">
+            <video
+              src="./assets/images/clip2.mp4"
+              width="100%"
+              height="575px"
+              loop
+              muted
+              autoplay
+            ></video>
+          </div>
+          <div class="item">
+            <div class="content">
+              <div class="name">LUNDEV</div>
+              <div class="des">
+                Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu
+              </div>
+              <button>See more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides showcontent">
+          <img
+            src="./assets/images/five.webp"
+            width="100%"
+            height="575px"
+            alt=""
+          />
+          <div class="item">
+            <div class="content">
+              <div class="name">LUNDEV</div>
+              <div class="des">
+                Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu
+              </div>
+              <button>See more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button id="prev" onclick="plusSlides(-1)" class="p-back prev">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button id="next" onclick="plusSlides(1)" class="p-back next">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Safety -->
+    <section class="safety" id="safety">
+      <div class="title">
+        <p class="m-title ntitle">Safety Measures</p>
+      </div>
+      <div class="safety-flex">
+        <div class="safety-one">
+          <div class="s-title">
+            <div class="s-box"></div>
+            <p class="s-text">Before And After Titans Arrivals</p>
+          </div>
+          <div class="s-points">
+            <ul>
+              <input type="radio" name="sbox" id="sone" />
+              <input type="radio" name="sbox" id="stwo" />
+              <input type="radio" name="sbox" id="sthree" />
+
+              <li>
+                <label for="sone" onclick="setOne(event)" class="sone slink"
+                  >Preparedness Plan</label
+                >
+              </li>
+              <li>
+                <label for="stwo" onclick="setTwo()" class="stwo slink"
+                  >Warning Systems</label
+                >
+              </li>
+              <li>
+                <label for="sthree" onclick="setThree()" class="sthree slink"
+                  >Evacuation & Rebuilding</label
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="safety-two">
+          <div class="s-one" id="bone">
+            <div class="t-box t-one">
+              Develop a comprehensive plan that includes escape routes, safe
+              zones, and emergency contacts.
+            </div>
+            <div class="t-box t-two">
+              <div class="t-img">
+                <img src="./assets/images/pp1.jpg" alt="" width="100%" />
+              </div>
+            </div>
+            <div class="t-box t-three">
+              <div class="t-img">
+                <img src="./assets/images/pp2.jpeg" alt="" width="100%" />
+              </div>
+            </div>
+            <div class="t-box t-four">
+              Identify and fortify safe havens where people can seek refuge from
+              the titans
+            </div>
+          </div>
+
+          <div class="s-two" id="btwo">
+            <div class="t-box t-one">
+              Implement warning & alarms to alert the community about the
+              impending arrival of titans
+            </div>
+            <div class="t-box t-two">
+              <div class="t-img">
+                <img src="./assets/images/alert.jpeg" alt="" width="100%" />
+              </div>
+            </div>
+            <div class="t-box t-three">
+              Stock up on essential supplies such as non-perishable food, water
+              and first aid kits
+            </div>
+            <div class="t-box t-four">
+              Establish a reliable communication system with your group to
+              coordinate and share critical information
+            </div>
+          </div>
+
+          <div class="s-three" id="bthree">
+            <div class="t-box t-one">
+              <div class="t-img">
+                <img src="./assets/images/rr1.jpeg" alt="" width="100%" />
+              </div>
+            </div>
+            <div class="t-box t-two">
+              If the situation becomes untenable, follow the evacuation plan to
+              move to a safer location
+            </div>
+            <div class="t-box t-three">
+              After the threat has passed, focus on rebuilding and recovery
+              efforts. Assess damage and prioritize reconstruction
+            </div>
+            <div class="t-box t-four">
+              <div class="t-img">
+                <img src="./assets/images/rr3.jpg" alt="" width="100%" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teams -->
+    <section id="teams" class="teams">
+      <div class="title">
+        <p class="m-title ntitle">Team Members</p>
+      </div>
+      <div class="team-container">
+        <div class="team-flex">
+          <div class="team-box">
+            <div class="team-img">
+              <img src="./assets/images/team1.jpg" width="100%" alt="" />
+            </div>
+            <div class="team-text">
+              <p class="team-title">Tim</p>
+              <p class="team-des">Officer</p>
+            </div>
+            <div class="team-social">
+              <i class="fa-brands fa-facebook team-icon"></i>
+              <i class="fa-brands fa-instagram team-icon"></i>
+              <i class="fa-brands fa-linkedin team-icon"></i>
+              <i class="fa-brands fa-x-twitter team-icon"></i>
+            </div>
+            <div>
+              <button type="button" class="s-button">View Profile</button>
+            </div>
+          </div>
+          <div class="team-box">
+            <div class="team-img">
+              <img src="./assets/images/team2.jpg" width="100%" alt="" />
+            </div>
+            <div class="team-text">
+              <p class="team-title">Tim</p>
+              <p class="team-des">Officer</p>
+            </div>
+            <div class="team-social">
+              <i class="fa-brands fa-facebook team-icon"></i>
+              <i class="fa-brands fa-instagram team-icon"></i>
+              <i class="fa-brands fa-linkedin team-icon"></i>
+              <i class="fa-brands fa-x-twitter team-icon"></i>
+            </div>
+            <div>
+              <button type="button" class="s-button">View Profile</button>
+            </div>
+          </div>
+          <div class="team-box">
+            <div class="team-img">
+              <img src="./assets/images/team3.jpg" width="100%" alt="" />
+            </div>
+            <div class="team-text">
+              <p class="team-title">Tim</p>
+              <p class="team-des">Officer</p>
+            </div>
+            <div class="team-social">
+              <i class="fa-brands fa-facebook team-icon"></i>
+              <i class="fa-brands fa-instagram team-icon"></i>
+              <i class="fa-brands fa-linkedin team-icon"></i>
+              <i class="fa-brands fa-x-twitter team-icon"></i>
+            </div>
+            <div>
+              <button type="button" class="s-button">View Profile</button>
+            </div>
+          </div>
+          <div class="team-box">
+            <div class="team-img">
+              <img src="./assets/images/team4.jpg" width="100%" alt="" />
+            </div>
+            <div class="team-text">
+              <p class="team-title">Tim</p>
+              <p class="team-des">Officer</p>
+            </div>
+            <div class="team-social">
+              <i class="fa-brands fa-facebook team-icon"></i>
+              <i class="fa-brands fa-linkedin team-icon"></i>
+              <i class="fa-brands fa-instagram team-icon"></i>
+              <i class="fa-brands fa-x-twitter team-icon"></i>
+            </div>
+            <div>
+              <button type="button" class="s-button">View Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="team-flex" style="padding-top: 1.5rem">
+          <div class="team-box">
+            <div class="team-img">
+              <img src="./assets/images/found1.jpg" width="100%" alt="" />
+            </div>
+            <div class="team-text">
+              <p class="team-title">Tim</p>
+              <p class="team-des">Officer</p>
+            </div>
+            <div class="team-social">
+              <i class="fa-brands fa-facebook team-icon"></i>
+              <i class="fa-brands fa-instagram team-icon"></i>
+              <i class="fa-brands fa-linkedin team-icon"></i>
+              <i class="fa-brands fa-x-twitter team-icon"></i>
+            </div>
+            <div>
+              <button type="button" class="s-button">View Profile</button>
+            </div>
+          </div>
+          <div class="team-box">
+            <div class="team-img">
+              <img src="./assets/images/found2.jpg" width="100%" alt="" />
+            </div>
+            <div class="team-text">
+              <p class="team-title">Tim</p>
+              <p class="team-des">Officer</p>
+            </div>
+            <div class="team-social">
+              <i class="fa-brands fa-facebook team-icon"></i>
+              <i class="fa-brands fa-instagram team-icon"></i>
+              <i class="fa-brands fa-linkedin team-icon"></i>
+              <i class="fa-brands fa-x-twitter team-icon"></i>
+            </div>
+            <div>
+              <button type="button" class="s-button">View Profile</button>
+            </div>
+          </div>
+          <div class="team-box">
+            <div class="team-img">
+              <img src="./assets/images/found3.png" width="100%" alt="" />
+            </div>
+            <div class="team-text">
+              <p class="team-title">Tim</p>
+              <p class="team-des">Officer</p>
+            </div>
+            <div class="team-social">
+              <i class="fa-brands fa-facebook team-icon"></i>
+              <i class="fa-brands fa-instagram team-icon"></i>
+              <i class="fa-brands fa-linkedin team-icon"></i>
+              <i class="fa-brands fa-x-twitter team-icon"></i>
+            </div>
+            <div>
+              <button type="button" class="s-button">View Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Titans -->
+    <section id="titans" class="content">
+      <!-- <div>
+        <div id="tab1" class="con-flex">
+          <div class="con-img">
+            <p class="con-text">Godzilla</p>
+            <img
+              src="./assets/images/godzilla.png"
+              style="mix-blend-mode: color-dodge"
+              width="100%"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div id="tab2" class="con-flex">
+          <div class="con-img" style="width: 40%">
+            <p class="con-text">Kong</p>
+            <img
+              src="./assets/images/kong.png"
+              style="mix-blend-mode: color-dodge"
+              width="100%"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div id="tab3" class="con-flex">
+          <div class="con-img" style="width: 70%">
+            <p class="con-text" style="width: 150%; top: 70%">Frost Vark</p>
+            <img
+              src="./assets/images/ice.png"
+              style="mix-blend-mode: color-dodge"
+              width="100%"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div id="tab4" class="con-flex">
+          <div class="con-img" style="width: 70%">
+            <p class="con-text" style="width: 200%; top: 60%; left: 0px">
+              Ghidorah
+            </p>
+            <img
+              src="./assets/images/triple.webp"
+              style="mix-blend-mode: color-dodge"
+              width="100%"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div id="tab5" class="con-flex">
+          <div class="con-img" style="width: 70%">
+            <p class="con-text" style="width: 200%; top: 60%; left: 0px">
+              Ion Dragon
+            </p>
+            <img
+              src="./assets/images/titan5.png"
+              style="mix-blend-mode: color-dodge"
+              width="100%"
+              alt=""
+            />
+          </div>
+        </div>
+      </div> -->
+
+      <div class="slideshow-containerT">
+        <div class="mySlidesT fade">
+          <div>
+            <div id="tab1" class="con-flex">
+              <div class="ti-box" style="width: 200px;
+              height: 200px;
+              top: 47%;
+              left: 65%;
+              bottom: 10px;"></div>
+              <div class="con-img" style="width: 60%">
+                <p class="con-text">Godzilla</p>
+                <img
+                  src="./assets/images/godzilla.png"
+                  style="mix-blend-mode: color-dodge;transform: scale(1.1);"
+                  width="100%"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlidesT fade">
+          <div>
+            <div id="tab1" class="con-flex">
+              <div class="ti-box" style="width: 300px;
+              height: 125px;
+              top: 59%;
+              left: 39%;
+              bottom: 10px;"></div>
+              <div class="con-img" style="width: 40%">
+                <p class="con-text">Kong</p>
+                <img
+                  src="./assets/images/kong.png"
+                  style="mix-blend-mode: color-dodge;transform: scale(1.05);"
+                  width="100%"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlidesT fade">
+          <div>
+            <div id="tab1" class="con-flex">
+              <div class="ti-box" style="width: 300px;
+              height: 165px;
+              top: 63%;
+              left: 33%;
+              bottom: 10px;"></div>
+              <div class="con-img" style="width: 60%">
+                <p class="con-text">Frost Vark</p>
+                <img
+                  src="./assets/images/ice.png"
+                  style="mix-blend-mode: color-dodge; transform: scale(1.3)"
+                  width="100%"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlidesT fade">
+          <div>
+            <div id="tab1" class="con-flex">
+              <div class="ti-box" style="width: 300px;
+              height: 200px;
+              top: 50%;
+              left: 55%;
+              bottom: 10px;"></div>
+              <div class="con-img" style="width: 60%">
+                <p class="con-text">Ghidorah</p>
+                <img
+                  src="./assets/images/triple.webp"
+                  style="mix-blend-mode: color-dodge; transform: scale(1.45);margin-top: 2.5rem;"
+                  width="100%"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlidesT fade">
+          <div>
+            <div id="tab1" class="con-flex">
+              <div class="ti-box" style="width: 300px;
+              height: 165px;
+              top: 75%;
+              left: 43%;
+              bottom: 10px;"></div>
+              <div class="con-img" style="width: 65%">
+                <p class="con-text">Ion Dragon</p>
+                <img
+                  src="./assets/images/titan5.png"
+                  style="mix-blend-mode: color-dodge;margin-left: 3rem;
+                  transform: scale(1.05);"
+                  width="100%"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="prevT" onclick="plusSlidesT(-1)">❮</a>
+        <a class="nextT" onclick="plusSlidesT(1)">❯</a>
+      </div>
+
+      <!-- <div class="titans-list">
+        <p onclick="setTitan('godzilla')">Godzilla</p>
+        <p onclick="setTitan('kong')">Kong</p>
+        <p onclick="setTitan('vark')">Frost Vark</p>
+        <p onclick="setTitan('ghidorah')">Ghidorah</p>
+        <p onclick="setTitan('ion')">Ion</p>
+      </div> -->
+    </section>
+
+    <!-- Live Radiation -->
+    <section id="radiation" class="radiation">
+      <div class="title">
+        <p class="m-title ntitle">Live Tracker</p>
+      </div>
+      <div class="rd-flex">
+        <div class="rd-one">
+          <div class="s-title">
+            <div class="s-box"></div>
+            <p class="s-text rd-text">Live Titans Tracker</p>
+          </div>
+        </div>
+        <div class="rd-two">
+          <div class="rd-img">
+            <div class="rd-graph">
+              <div id="container-graph"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="footer">
+      <div class="lfooter">
+        <div class="footer-logo">
+          <div class="f-img">
+            <img src="./assets/images/pic.png" width="100%" alt="" />
+          </div>
+          <div>MONARCH</div>
+        </div>
+        <div class="footer-text">
+          <h2>About Us</h2>
+          <p>Privacy Policy</p>
+          <p>Disclaimer</p>
+          <p>Terms & Conditions</p>
+          <p>Our Services</p>
+        </div>
+        <div class="footer-text">
+          <h2>Contact Us</h2>
+          <p><i class="fa-solid fa-phone"></i> +(1)222-444-6666</p>
+          <p><i class="fa-solid fa-envelope"></i> monarch@outlook.com</p>
+          <p>
+            <i class="fa-solid fa-location-dot"></i> 4666 Wright Court, Seattle
+          </p>
+          <p>Washington - 98119</p>
+          <p>United States</p>
+        </div>
+        <div class="footer-text">
+          <h2>Help Center</h2>
+          <p>Tokyo, Japan</p>
+          <p>New York, United States</p>
+          <p>Moscow, Russia</p>
+          <p>London, England</p>
+          <p>Mumbai, India</p>
+        </div>
+      </div>
+      <div class="apple-footer">
+        <div class="apple-logo">
+          <img src="./assets/images/Apple_TV_(logo).svg.png" alt="" style="filter: invert(100%) sepia(0%) saturate(0) hue-rotate(0deg) brightness(100%) contrast(100%);" width="100%">
+        </div>
+      </div>
+    </section>
+
+    <!-- JS -->
+    <script>
+      // document.getElementById("next").onclick = function () {
+      //   let lists = document.querySelectorAll(".item");
+      //   document.getElementById("slide").appendChild(lists[0]);
+      // };
+      // document.getElementById("prev").onclick = function () {
+      //   let lists = document.querySelectorAll(".item");
+      //   document.getElementById("slide").prepend(lists[lists.length - 1]);
+      // };
+
+      var one = document.getElementById("bone");
+      var two = document.getElementById("btwo");
+      var three = document.getElementById("bthree");
+
+      function setOne(event) {
+        one.style.display = "block";
+        two.style.display = "none";
+        three.style.display = "none";
+      }
+
+      function setTwo(event) {
+        one.style.display = "none";
+        two.style.display = "block";
+        three.style.display = "none";
+      }
+
+      function setThree(event) {
+        one.style.display = "none";
+        two.style.display = "none";
+        three.style.display = "block";
+      }
+    </script>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/annotations.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+    <script>
+      function loadGraph() {
+        Highcharts.chart("container-graph", {
+          chart: {
+            type: "area",
+            zoomType: "x",
+            panning: true,
+            panKey: "shift",
+            scrollablePlotArea: {
+              minWidth: 800,
+            },
+            backgroundColor: "rgba(0, 0, 0, 0)",
+          },
+
+          title: {
+            text: "Live Titans Tracker",
+            align: "center",
+            style: {
+              color: "#6da1a0",
+            },
+          },
+
+          responsive: {
+            rules: [
+                {
+                    condition: {
+                        maxWidth: 500,
+                    },
+                    chartOptions: {
+                        legend: {
+                            enabled: false,
+                        },
+                    },
+                },
+            ],
+        },
+
+          lang: {
+            accessibility: {
+              screenReaderSection: {
+                annotations: {
+                  descriptionNoPoints:
+                    "{annotationText}, at distance {annotation.options.point.x}km, elevation {annotation.options.point.y} meters.",
+                },
+              },
+            },
+          },
+
+          credits: {
+            enabled: false,
+          },
+
+          xAxis: {
+            labels: {
+              format: "{value} km",
+              style: {
+                color: "#6da1a0",
+              },
+            },
+            minRange: 5,
+            title: {
+              text: "",
+              style: {
+                color: "#6da1a0",
+              },
+            },
+            accessibility: {
+              rangeDescription: "Range: 0 to 187.8km.",
+            },
+          },
+
+          yAxis: {
+            startOnTick: true,
+            endOnTick: false,
+            maxPadding: 0.35,
+
+            title: {
+              text: null,
+            },
+            labels: {
+              format: "{value} m",
+              style: {
+                color: "#6da1a0",
+              },
+            },
+            accessibility: {
+              description: "Elevation",
+              rangeDescription: "Range: 0 to 1,553 meters",
+            },
+            gridLineColor: "#205b58",
+          },
+
+          tooltip: {
+            headerFormat: "Distance: {point.x:.1f} km<br>",
+            pointFormat: "{point.y} m a. s. l.",
+            shared: true,
+          },
+
+          legend: {
+            enabled: false,
+          },
+
+          series: [
+            {
+              data: elevationData,
+              lineColor: Highcharts.getOptions().colors[1],
+              color: Highcharts.getOptions().colors[2],
+              fillOpacity: 0.5,
+              name: "Elevation",
+              marker: {
+                enabled: false,
+              },
+              threshold: null,
+            },
+          ],
+
+          navigation: {
+            menuStyle: {
+              backgroundColor: "#609d9c",
+            },
+          },
+
+          plotOptions: {
+            area: {
+              fillColor: "#609d9c",
+            },
+          },
+          
+          
+        });
+      }
+      loadGraph();
+    </script>
+
+    <script>
+      function setTitan(name) {
+        var tab1 = document.getElementById("tab1");
+        var tab2 = document.getElementById("tab2");
+        var tab3 = document.getElementById("tab3");
+        var tab4 = document.getElementById("tab4");
+        var tab5 = document.getElementById("tab5");
+
+        if (name == "godzilla") {
+          tab1.style.display = "flex";
+          tab2.style.display = "none";
+          tab3.style.display = "none";
+          tab4.style.display = "none";
+          tab5.style.display = "none";
+        }
+
+        if (name == "kong") {
+          tab1.style.display = "none";
+          tab2.style.display = "flex";
+          tab3.style.display = "none";
+          tab4.style.display = "none";
+          tab5.style.display = "none";
+        }
+
+        if (name == "vark") {
+          tab1.style.display = "none";
+          tab2.style.display = "none";
+          tab3.style.display = "flex";
+          tab4.style.display = "none";
+          tab5.style.display = "none";
+        }
+
+        if (name == "ghidorah") {
+          tab1.style.display = "none";
+          tab2.style.display = "none";
+          tab3.style.display = "none";
+          tab4.style.display = "flex";
+          tab5.style.display = "none";
+        }
+
+        if (name == "ion") {
+          tab1.style.display = "none";
+          tab2.style.display = "none";
+          tab3.style.display = "none";
+          tab4.style.display = "none";
+          tab5.style.display = "flex";
+        }
+      }
+    </script>
+
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+      }
+    </script>
+
+    <script>
+      let slideIndexT = 1;
+      showSlidesT(slideIndexT);
+
+      function plusSlidesT(nT) {
+        showSlidesT((slideIndexT += nT));
+      }
+
+      function currentSlideT(nT) {
+        showSlidesT((slideIndexT = nT));
+      }
+
+      function showSlidesT(nT) {
+        let iT;
+        let slidesT = document.getElementsByClassName("mySlidesT");
+        let dotsT = document.getElementsByClassName("dot");
+        if (nT > slidesT.length) {
+          slideIndexT = 1;
+        }
+        if (nT < 1) {
+          slideIndexT = slidesT.length;
+        }
+        for (iT = 0; iT < slidesT.length; iT++) {
+          slidesT[iT].style.display = "none";
+        }
+        for (iT = 0; iT < dotsT.length; i++) {
+          dotsT[iT].className = dotsT[iT].className.replace(" active", "");
+        }
+        slidesT[slideIndexT - 1].style.display = "block";
+      }
+    </script>
+  </body>
+</html>
