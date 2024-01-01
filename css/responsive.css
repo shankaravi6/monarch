@@ -162,7 +162,7 @@
 
   .safety-flex {
     grid-template-columns: 1fr !important;
-    padding: 10px;
+    padding: 10px !important;
   }
 
   .s-text {
