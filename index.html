@@ -34,8 +34,9 @@
           <div class="f-img">
             <img src="./assets/images/logo.png" width="100%" alt="" />
           </div>
-          <audio id="myAudio" controls autoplay>
-            <source src="./assets/videos/titletrack.mp3" type="audio/mpeg" />
+          <!-- <audio id="myAudio" src="./assets/videos/titletrack.mp3" type="audio/mpeg" loop="loop" autoplay muted> </audio> -->
+          <audio id="myAudio">
+            <source src="./assets/videos/titletrack.mp3" type="audio/mp3" />
           </audio>
 
           <p>MONARCH</p>
@@ -43,7 +44,8 @@
 
         <ul class="nav-links">
           <label for="clsbtn" class="btn clsbtn"
-            ><i class="fa-regular fa-rectangle-xmark"></i></label>
+            ><i class="fa-regular fa-rectangle-xmark"></i
+          ></label>
           <li><a class="nlink" href="#home">Home</a></li>
           <li><a class="nlink" href="#news">News</a></li>
           <li><a class="nlink" href="#safety">Guidance</a></li>
@@ -805,16 +807,28 @@
       });
 
       //Audio Track
-      function myFunction() {
-        var x = document.getElementById("myAudio").autoplay;
-        console.log(true);
-      }
+      document.addEventListener("DOMContentLoaded", function () {
+        var audio = document.getElementById("myAudio");
 
-      myFunction();
+        if (audio.muted) {
+          audio.muted = false;
+        }
 
-      window.onload = function (e) {
-        document.getElementById("myAudio").autoplay;
-      };
+        function tryPlay() {
+          audio
+            .play()
+            .then(function () {})
+            .catch(function (error) {});
+        }
+
+        document.addEventListener("click", function () {
+          tryPlay();
+        });
+
+        document.addEventListener("scroll", function () {
+          tryPlay();
+        });
+      });
     </script>
   </body>
 </html>
