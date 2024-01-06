@@ -809,25 +809,33 @@
       //Audio Track
       document.addEventListener("DOMContentLoaded", function () {
         var audio = document.getElementById("myAudio");
+        if (audio) {
+          if (audio.muted) {
+            audio.muted = false;
+          }
+          function tryPlay() {
+            audio
+              .play()
+              .then(function () {})
+              .catch(function (error) {});
+          }
 
-        if (audio.muted) {
-          audio.muted = false;
+          document.addEventListener("click", function () {
+            tryPlay();
+          });
+
+          document.addEventListener("touchstart", function () {
+            tryPlay();
+          });
+
+          document.addEventListener("scroll", function () {
+            tryPlay();
+          });
+        } else {
+          console.error(
+            "Audio element with ID 'yourAudioElementId' not found."
+          );
         }
-
-        function tryPlay() {
-          audio
-            .play()
-            .then(function () {})
-            .catch(function (error) {});
-        }
-
-        document.addEventListener("click", function () {
-          tryPlay();
-        });
-
-        document.addEventListener("scroll", function () {
-          tryPlay();
-        });
       });
     </script>
   </body>
